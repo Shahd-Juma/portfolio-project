@@ -109,6 +109,22 @@ footer a {
     color: white;
     font-weight: bold;
 }
+body.dark-mode {
+    --main-color: #2dd4bf;
+    --accent-color: #7dd3fc;
+    --text-color: #e2e8f0;
+    --bg-color: #0f172a;
+    --card-color: #1e293b;
+}
+
+#theme-btn {
+    background-color: var(--main-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
 
 
 
