@@ -2,7 +2,6 @@ const themeBtn = document.getElementById("theme-btn");
 
 function toggleTheme() {
     document.body.classList.toggle("dark-mode");
-
     if (document.body.classList.contains("dark-mode")) {
         themeBtn.textContent = "☀️ Light mode";
     } else {
@@ -14,6 +13,7 @@ themeBtn.addEventListener("click", toggleTheme);
 
 const translations = {
     en: {
+        "logo": "SHAHD JUM'AH",
         "nav-about": "About",
         "nav-skills": "Skills",
         "nav-projects": "Projects",
@@ -44,6 +44,7 @@ const translations = {
         "ph-message": "Your message"
     },
         ar: {
+        "logo": "شهد جمعة",
         "nav-about": "عنّي",
         "nav-skills": "المهارات",
         "nav-projects": "المشاريع",
